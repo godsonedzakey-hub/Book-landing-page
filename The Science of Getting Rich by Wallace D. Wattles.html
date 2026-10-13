@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Science of Getting Rich by Wallace D. Wattles</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f1f4ee; --ink:#12281d; --muted:#4a5c51; --hero:#12281d; --hero-ink:#f1f4ee;
+  --brass:#c39a45; --line:#cfd8cc; --card:#e6ece2; --btn-ink:#12281d;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#0d1a13;--ink:#e9eee6;--muted:#a3b3a9;--hero:#081109;--hero-ink:#f1f4ee;--line:#27392e;--card:#14261b;}
+}
+:root[data-theme="dark"]{--bg:#0d1a13;--ink:#e9eee6;--muted:#a3b3a9;--hero:#081109;--hero-ink:#f1f4ee;--line:#27392e;--card:#14261b;}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Work Sans",system-ui,sans-serif;line-height:1.65;font-size:17px}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;line-height:1.1;margin:0}
+a{color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 22px}
+
+.hero{background:var(--hero);color:var(--hero-ink);padding:56px 0 64px}
+.hero .wrap{display:grid;gap:36px}
+.cover{justify-self:start;width:210px;filter:drop-shadow(10px 10px 0 var(--brass))}.cover svg{display:block;width:100%;height:auto}
+.cover b{font-family:"Cormorant Garamond",Georgia,serif;font-size:26px;line-height:1.05}
+.cover span{font-size:13px;color:var(--muted)}
+.hero h1{font-size:clamp(44px,10vw,72px);font-weight:700}
+.hero p.by{margin:14px 0 0;color:var(--brass);font-weight:500}
+.hero p.lede{margin:22px 0 30px;font-size:19px;max-width:34em;opacity:.92}
+.btn{display:inline-block;background:var(--brass);color:#12281d;font-weight:600;font-size:18px;padding:16px 34px;border-radius:4px;text-decoration:none;min-height:48px}
+.btn:hover{filter:brightness(1.08)}
+.btn:focus-visible{outline:3px solid var(--hero-ink);outline-offset:3px}
+.note{display:block;margin-top:14px;font-size:14px;opacity:.75}
+
+section{padding:56px 0;border-bottom:1px solid var(--line)}
+h2{font-size:clamp(32px,6vw,44px);font-weight:700;margin-bottom:18px}
+.ideas{display:grid;gap:14px;margin-top:26px}
+.idea{background:var(--card);padding:18px 20px;border-left:4px solid var(--brass)}
+.idea h3{font-size:25px;margin-bottom:4px}
+.idea p{margin:0;color:var(--muted);font-size:16px}
+p{margin:0 0 14px;max-width:38em}
+.quote{font-family:"Cormorant Garamond",Georgia,serif;font-size:clamp(26px,5vw,34px);line-height:1.25;font-weight:500;max-width:22em}
+blockquote{margin:0 0 26px;padding:4px 0 4px 20px;border-left:4px solid var(--brass);font-family:"Cormorant Garamond",Georgia,serif;font-size:clamp(25px,5vw,32px);line-height:1.25;font-weight:500;max-width:24em}blockquote cite{display:block;margin-top:8px;font-family:"Work Sans",system-ui,sans-serif;font-style:normal;font-size:14px;color:var(--muted)}.final{text-align:center;border-bottom:0;padding-bottom:72px}
+.final p{margin-left:auto;margin-right:auto}
+.final .btn{background:var(--ink);color:var(--bg)}
+.final .btn:focus-visible{outline-color:var(--brass)}
+footer{padding:26px 0 40px;text-align:center;font-size:14px;color:var(--muted)}
+@media (min-width:720px){.hero .wrap{grid-template-columns:200px 1fr;align-items:center;gap:56px}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="cover"><svg viewBox="0 0 200 300" role="img" aria-label="Book cover: The Science of Getting Rich by Wallace D. Wattles"><rect width="200" height="300" fill="#f1f4ee"/><rect x="10" y="10" width="180" height="280" fill="none" stroke="#c39a45" stroke-width="2"/><rect x="16" y="16" width="168" height="268" fill="none" stroke="#12281d" stroke-width="0.8"/><g font-family="Cormorant Garamond, Georgia, serif" fill="#12281d" text-anchor="middle"><text x="100" y="62" font-size="15" letter-spacing="2">THE</text><text x="100" y="96" font-size="34" font-weight="700">Science</text><text x="100" y="124" font-size="20" font-style="italic">of</text><text x="100" y="158" font-size="34" font-weight="700">Getting Rich</text><text x="100" y="268" font-size="15" letter-spacing="1.5">WALLACE D. WATTLES</text></g><g transform="translate(100 207)"><circle r="26" fill="#c39a45"/><circle r="20" fill="none" stroke="#12281d" stroke-width="1.4"/><path d="M0 14V-2M0 4C-2 -8 -10 -10 -15 -9C-13 1 -7 5 0 4ZM0 0C2 -12 10 -14 15 -13C13 -3 7 1 0 0Z" fill="#12281d" stroke="#12281d" stroke-width="1.4" stroke-linejoin="round"/></g></svg></div>
+    <div>
+      <h1>The Science of Getting Rich</h1>
+      <p class="by">By Wallace D. Wattles</p>
+      <p class="lede">A short, direct guide to the thinking and daily habits behind building wealth. Written in 1910, still read today, and quick enough to finish in an evening.</p>
+      <a class="btn" href="https://drive.google.com/file/d/1cuG5wGNoMh4fVFhua2ol_V598NF68ZHT/view?usp=drivesdk" target="_blank" rel="noopener">Buy now</a>
+      <span class="note">Under 100 pages. Opens in a new tab.</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <h2>What the book teaches</h2>
+      <p>Wattles argues that getting rich follows a method you can learn and repeat, not a gift reserved for a lucky few. He lays that method out in plain steps.</p>
+      <div class="ideas">
+        <div class="idea"><h3>Know what you want</h3><p>Hold a clear picture of the life and results you are working toward.</p></div>
+        <div class="idea"><h3>Practice gratitude and faith</h3><p>Keep a steady, thankful frame of mind so doubt does not stall your effort.</p></div>
+        <div class="idea"><h3>Act every day</h3><p>Do each task as well as you can, in the present, without waiting for the perfect moment.</p></div>
+        <div class="idea"><h3>Give more value than you take</h3><p>Build wealth by serving others well rather than by competing against them.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Lines worth remembering</h2>
+      <blockquote>The desire for riches is really the desire for a richer, fuller, and more abundant life.<cite>Chapter 1, The Right to Be Rich</cite></blockquote>
+      <blockquote>Do, every day, all that can be done that day, and do each separate act in an efficient manner.<cite>On acting in the present</cite></blockquote>
+      <blockquote>Give each person more in use value than you take from him in cash value.<cite>On creating value for others</cite></blockquote>
+      <blockquote>Thought is the only power which can produce tangible riches from formless substance.<cite>On the power of thought</cite></blockquote>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Who it is for</h2>
+      <p>Readers starting out with money and mindset, entrepreneurs who want a focused reset, and anyone curious about the book that shaped modern self-help and inspired later titles like <em>The Secret</em>.</p>
+      <p>Many readers take its practical lessons on focus, efficiency, and serving others, and pair it with a data-driven book on personal finance for balance.</p>
+    </div>
+  </section>
+
+  <section class="final">
+    <div class="wrap">
+      <h2>Start reading today</h2>
+      <p>One short book. One clear method. Get your copy now.</p>
+      <a class="btn" href="https://drive.google.com/file/d/1cuG5wGNoMh4fVFhua2ol_V598NF68ZHT/view?usp=drivesdk" target="_blank" rel="noopener">Buy now</a>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">The Science of Getting Rich by Wallace D. Wattles, first published 1910.</div></footer>
+</body>
+</html>
